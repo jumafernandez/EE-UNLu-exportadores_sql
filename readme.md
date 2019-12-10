@@ -37,6 +37,21 @@ Si pudimos seguir estos pasos, ya tenemos una base de datos creada y nos podemos
 
 ### 2.2. Actualización de la Base de Datos desde Backup
 
+Es una buena práctica de preservación de los datos ir generando backups periodicamente para evitar perdidas de información y al mismo tiempo conservar diferentes estados de la Base de Datos para reconstruir series de Anuarios Estadísticos publicados.
+A continuación, se explica paso a paso como generarlos y como restaurar esos Backups.
+
+#### 2.2.1. Crear Backup desde la Base de Datos
+
+Para generar un backup con los datos de la Base de datos desde PgAdmin, debe conectarse al Servidor y haciendo click derecho presionamos sobre _Backup_.
+
+![Realizar Backup](./imagenes/C4.png)
+
+
+
+#### 2.2.2. Restaurar Backup de la Base de Datos
+
+
+
 ### 2.3. Actualización de la Base de Datos desde Exportaciones del Módulo Externo
 
 
