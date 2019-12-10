@@ -23,15 +23,15 @@ Se asume que la base de datos ya existe y posee el nombre __exportaciones_unlu__
 
 1. Abrir PgAdmin 3 y hacer doble click sobre el Servidor (en nuestro caso __Localhost__) o presionar click derecho y seleccionar _Connect_.
 
-[CAPTURA 1]
+![Conectar Servidor](./imagenes/C1.png)
 
 2. Se presiona el click derecho en el ícono _Databases_, dependiente del Servidor, y se selecciona _New Database..._.
 
-[CAPTURA 2]
+![Crear DB](./imagenes/C2.png)
 
 3. Aquí se define el nombre en la etiqueta _Name_ y en la pestaña _Definition_ nos aseguramos que el encoding sea _UTF-8_.
 
-[CAPTURA 3]
+![Atributos DB](./imagenes/C3.png)
 
 Si pudimos seguir estos pasos, ya tenemos una base de datos creada y nos podemos conectar a la misma haciendo doble click.
 
