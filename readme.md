@@ -50,7 +50,7 @@ Para generar un backup con los datos de la Base de datos desde PgAdmin, debe con
 
 #### 2.2.2. Restaurar Backup de la Base de Datos
 
-Para restaurar el Backup, previamente debemos crear la Base de Datos de acuerdo a los pasos explicados en_2.1. Creación de la Base de Datos_. Una vez creada la Base de Datos, desde PgAdmin, debe conectarse al Servidor y haciendo click derecho sobre la Base creada elegimos la opción _Restore_. Seleccionamos el archivo creado mediante los pasos de _2.2.1 Crear Backup desde la Base de Datos_ y presionamos el botón _Restore_.
+Para restaurar el Backup, previamente debemos crear la Base de Datos de acuerdo a los pasos explicados en _2.1. Creación de la Base de Datos_. Una vez creada la Base de Datos, desde PgAdmin, debe conectarse al Servidor y haciendo click derecho sobre la Base creada elegimos la opción _Restore_. Seleccionamos el archivo creado mediante los pasos de _2.2.1 Crear Backup desde la Base de Datos_ y presionamos el botón _Restore_.
 
 ### 2.3. Actualización de la Base de Datos desde Exportaciones del Módulo Externo
 
