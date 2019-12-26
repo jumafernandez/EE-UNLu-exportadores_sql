@@ -65,3 +65,4 @@ La Base de Datos se alimenta de exportaciones del Módulo Administrador, las cua
 A continuación de explica el proceso de generación de los archivos de texto y exportación de los mismos a la Base de Datos.
 
 #### 2.3.1. Generación de archivos de texto a través del Módulo Administrador
+
