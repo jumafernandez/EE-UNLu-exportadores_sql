@@ -54,10 +54,14 @@ Para restaurar el Backup, previamente debemos crear la Base de Datos de acuerdo 
 
 ### 2.3. Actualización de la Base de Datos desde Exportaciones del Módulo Externo
 
+La Base de Datos se alimenta de exportaciones del Módulo Administrador, las cuales consisten en archivos de texto separados por ";". Para la actualización de la Base de Datos, existen un conjunto de programas que incorporan esos datos, los cuales se encuentran en la ubicación __".../Documentos/Importadores Base PostgreSQL/scripts"__ de la PC. Los programas en cuestión son los siguientes:
+- exportar_estudiantes.php (Actualiza Tabla estudiantes),
+- exportar_cursadas.php (Actualiza Tabla cursadas),
+- exportar_finales.php (Actualiza Tabla finales),
+- exportar_carreras.php (Actualiza Tabla carreras),
+- exportar_asignaturas.php (Actualiza Tabla asignaturas),
+- exportar_cambios_plan.php (Actualiza Tabla cambios_plan).
 
+A continuación de explica el proceso de generación de los archivos de texto y exportación de los mismos a la Base de Datos.
 
-
-
-
-
-
+#### 2.3.1. Generación de archivos de texto a través del Módulo Administrador
