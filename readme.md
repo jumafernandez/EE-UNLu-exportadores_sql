@@ -64,5 +64,29 @@ La Base de Datos se alimenta de exportaciones del Módulo Administrador, las cua
 
 A continuación de explica el proceso de generación de los archivos de texto y exportación de los mismos a la Base de Datos.
 
-#### 2.3.1. Generación de archivos de texto a través del Módulo Administrador
+#### 2.3.1. Generación de archivos de texto a través del Menú Externo
+
+Como se planteó antes, la Base de Datos se alimenta con archivos de texto del Menú Externo.
+
+##### 2.3.1.1. Exportación Estudiantes
+
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-1 Estudiantes"_ con los siguientes parámetros de ingreso:
+- Imprime datos privados: Si (Presione +).
+- Opción de exportación: _1 A partir de un Legajo_.
+- Desde: 0 (para asegurarnos que captamos todos los estudiantes).
+- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
+- Libres/Regulares/Todos (L/R/T): T (todos).
+- Exluye Inhabilitados (+ Si / - No): - (No).
+- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+
+##### 2.3.1.2. Exportación Cursadas
+
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-1 Estudiantes"_ con los siguientes parámetros de ingreso:
+- Imprime datos privados: Si (Presione +).
+- Opción de exportación: _1 A partir de un Legajo_.
+- Desde: 0 (para asegurarnos que captamos todos los estudiantes).
+- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
+- Libres/Regulares/Todos (L/R/T): T (todos).
+- Exluye Inhabilitados (+ Si / - No): - (No).
+- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
 
