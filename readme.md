@@ -47,7 +47,6 @@ Para generar un backup con los datos de la Base de datos desde PgAdmin, debe con
 ![Realizar Backup](./imagenes/C4.png)
 
 
-
 #### 2.2.2. Restaurar Backup de la Base de Datos
 
 Para restaurar el Backup, previamente debemos crear la Base de Datos de acuerdo a los pasos explicados en _2.1. Creación de la Base de Datos_. Una vez creada la Base de Datos, desde PgAdmin, debe conectarse al Servidor y haciendo click derecho sobre la Base creada elegimos la opción _Restore_. Seleccionamos el archivo creado mediante los pasos de _2.2.1 Crear Backup desde la Base de Datos_ y presionamos el botón _Restore_.
@@ -66,7 +65,7 @@ A continuación de explica el proceso de generación de los archivos de texto y 
 
 #### 2.3.1. Generación de archivos de texto a través del Menú Externo
 
-Como se planteó antes, la Base de Datos se alimenta con archivos de texto del Menú Externo.
+Como se planteó antes, la Base de Datos se alimenta con archivos de texto, los cuales son generados en su totalidad desde el Menú Externo.
 
 ##### 2.3.1.1. Exportación Estudiantes
 
@@ -106,26 +105,16 @@ Para la generación de esta exportación, debe ingresarse al Menú Externo y acc
 
 ##### 2.3.1.5. Exportación Asignaturas
 
-Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-2 Cursadas"_ con los siguientes parámetros de ingreso:
-- Opción de exportación: _2 Por año y cuatrimestre_.
-- Año: Se ingresa el año que se desea.
-- Cuatrimestre: Se ingresa el cuatrimestre que se desea.
-- Legajo desde: 1 (para asegurarnos que captamos todos los estudiantes).
-- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
-- Libres/Regulares/Todos (L/R/T): T (todos).
-- Con o sin simultaneidad(C/S): S (Sin).
-- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-3-1 Listado de Materias"_ con los siguientes parámetros de ingreso:
+- Opción de exportación: _1 Listado por código de materia_.
+- Impresora, Pantalla o Archivo (I/P/A): A (Archivo).
+Esta opción genera automáticamente en el Disco D: la exportación __matxplan.txt__.
 
 ##### 2.3.1.6. Exportación Cambios de Plan
 
-Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-2 Cursadas"_ con los siguientes parámetros de ingreso:
-- Opción de exportación: _2 Por año y cuatrimestre_.
-- Año: Se ingresa el año que se desea.
-- Cuatrimestre: Se ingresa el cuatrimestre que se desea.
-- Legajo desde: 1 (para asegurarnos que captamos todos los estudiantes).
-- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
-- Libres/Regulares/Todos (L/R/T): T (todos).
-- Con o sin simultaneidad(C/S): S (Sin).
-- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-4 Cambios de Carrera/Plan".
+Esta opción genera automáticamente en el Disco D: la exportación __CAMBCARR.TXT__.
+
+#### 2.3.2. Incorporación de datos de las exportaciones desde los Scripts
 
 
