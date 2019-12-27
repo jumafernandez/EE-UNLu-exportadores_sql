@@ -81,12 +81,51 @@ Para la generación de esta exportación, debe ingresarse al Menú Externo y acc
 
 ##### 2.3.1.2. Exportación Cursadas
 
-Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-1 Estudiantes"_ con los siguientes parámetros de ingreso:
-- Imprime datos privados: Si (Presione +).
-- Opción de exportación: _1 A partir de un Legajo_.
-- Desde: 0 (para asegurarnos que captamos todos los estudiantes).
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-2 Cursadas"_ con los siguientes parámetros de ingreso:
+- Opción de exportación: _2 Por año y cuatrimestre_.
+- Año: Se ingresa el año que se desea.
+- Cuatrimestre: Se ingresa el cuatrimestre que se desea.
+- Legajo desde: 1 (para asegurarnos que captamos todos los estudiantes).
 - Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
 - Libres/Regulares/Todos (L/R/T): T (todos).
-- Exluye Inhabilitados (+ Si / - No): - (No).
+- Con o sin simultaneidad(C/S): S (Sin).
 - Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+
+##### 2.3.1.3. Exportación Finales
+
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-3 Finales"_ con los siguientes parámetros de ingreso:
+- Opción de exportación: _2 Por año de Final_.
+- Desde: 0 (para asegurarnos que captamos todos los estudiantes).
+- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
+- Año: Se ingresa el año que se desea.
+- Libres/Regulares/Todos (L/R/T): T (todos).
+- Con o sin simultaneidad(C/S): S (Sin).
+- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+
+##### 2.3.1.4. Exportación Carreras
+
+##### 2.3.1.5. Exportación Asignaturas
+
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-2 Cursadas"_ con los siguientes parámetros de ingreso:
+- Opción de exportación: _2 Por año y cuatrimestre_.
+- Año: Se ingresa el año que se desea.
+- Cuatrimestre: Se ingresa el cuatrimestre que se desea.
+- Legajo desde: 1 (para asegurarnos que captamos todos los estudiantes).
+- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
+- Libres/Regulares/Todos (L/R/T): T (todos).
+- Con o sin simultaneidad(C/S): S (Sin).
+- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+
+##### 2.3.1.6. Exportación Cambios de Plan
+
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-11-2 Cursadas"_ con los siguientes parámetros de ingreso:
+- Opción de exportación: _2 Por año y cuatrimestre_.
+- Año: Se ingresa el año que se desea.
+- Cuatrimestre: Se ingresa el cuatrimestre que se desea.
+- Legajo desde: 1 (para asegurarnos que captamos todos los estudiantes).
+- Hasta: 500.000 (para asegurarnos que captamos todos los estudiantes).
+- Libres/Regulares/Todos (L/R/T): T (todos).
+- Con o sin simultaneidad(C/S): S (Sin).
+- Nombre del archivo: Ponemos un nombre cualquiera que lo identifique.
+
 
