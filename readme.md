@@ -151,5 +151,9 @@ Mientras que para la Tabla de Cursadas, la sentencia deberá ser como la present
 
 ![Actualización de Cursadas](./imagenes/C-act-cursadas.png)
 
+Es importante ser __cuidadoso__ con las sentencias SQL anteriores puesto que si las condiciones definidas no son correctas podrían borrarse datos involuntariamente.
+
+Por último, se sugiere persistir en la carpeta __/exportaciones/anteriores/__ las exportaciones utilizadas en cada actualización. Esta práctica permite tener los datos exportados en formato de texto plano a efectos de constatar la consistencia de la Base de Datos.
+
 Si todo salió bien, finalizados estos pasos la Base de Datos estará operativa y actualizada a efectos de poder realizar consultas. Buen trabajo!
 
