@@ -131,7 +131,12 @@ Para la incorporación de los datos a partir de las exportaciones, primero deber
 
 Es importante tener en cuenta que podrán exportarse varias exportaciones tanto de exámenes como de cursadas al mismo tiempo, simplemente dejando las diferentes exportaciones en la carpeta previamente mencionada. Cuando esto suceda, el programa importador detectará automáticamente que existe mas de una e incorporará los datos al Sistema.
 
+Una vez que las exportaciones fueron guardadas en la  carpeta __/exportaciones__ deberán ejecutarse los importadores, haciendo doble click en los íconos correspondientes a la tabla que se desee actualizar. Estos importadores se encuentran en la carpeta __/actualizadores__:
+
+![Atributos DB](./imagenes/C-actualizadores.png)
+
 #### 2.3.3. Criterios de actualización de las Tablas de la Base de Datos
 
+Los 
 
 
