@@ -1,6 +1,8 @@
 # Instructivo: exportación de datos a la DB SQL-UNLu
 
+<p align="justify">
 El objetivo de este instructivo es explicar los pasos a seguir para exportar los registros relacionados a la actividad académica de la Universidad a una base de datos relacional, compatible con PostgreSQL 9.5, para la ejecución de consultas complejas para la generación de información para la toma de decisiones.
+</p>
 
 ## 1. Conceptos iniciales
 
@@ -12,7 +14,9 @@ A continuación se presenta el modelo de datos de la Base de Datos SQL:
 
 ### 1.2. Herramientas de software
 
+<p align="justify">
 Para la exportación de los datos, la gestión de la información y la persistencia se utilizarán las siguientes herramientas:
+</p>
 - PHP 7.0,
 - PostgreSQL 9.5,
 - PgAdmin 3.
@@ -21,7 +25,9 @@ Para la exportación de los datos, la gestión de la información y la persisten
 
 ### 2.1. Creación de la Base de Datos
 
+<p align="justify">
 Se asume que la base de datos ya existe y posee el nombre __exportaciones_unlu__, no obstante si se deseara generar una base de datos habría que seguir los siguientes pasos:
+</p>
 
 1. Abrir PgAdmin 3 y hacer doble click sobre el Servidor (en nuestro caso __Localhost__) o presionar click derecho y seleccionar _Connect_.
 
@@ -36,6 +42,7 @@ Se asume que la base de datos ya existe y posee el nombre __exportaciones_unlu__
 ![Atributos DB](./imagenes/C3.png)
 
 Si pudimos seguir estos pasos, ya tenemos una base de datos creada y nos podemos conectar a la misma haciendo doble click.
+
 
 ### 2.2. Actualización de la Base de Datos desde Backup
 
@@ -157,3 +164,4 @@ Por último, se sugiere persistir en la carpeta __/exportaciones/anteriores/__ l
 
 Si todo salió bien, finalizados estos pasos la Base de Datos estará operativa y actualizada a efectos de poder realizar consultas. Buen trabajo!
 
+</p>
