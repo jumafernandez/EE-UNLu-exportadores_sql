@@ -8,6 +8,8 @@ El objetivo de este instructivo es explicar los pasos a seguir para exportar los
 
 A continuación se presenta el modelo de datos de la Base de Datos SQL:
 
+![Modelo de Datos](./imagenes/C-modelo.png)
+
 ### 1.2. Herramientas de software
 
 Para la exportación de los datos, la gestión de la información y la persistencia se utilizarán las siguientes herramientas:
