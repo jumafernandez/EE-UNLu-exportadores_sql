@@ -123,4 +123,15 @@ Esta opción genera automáticamente en el Disco D: la exportación __CAMBCARR.T
 
 #### 2.3.2. Incorporación de datos de las exportaciones desde los Scripts
 
+Para la incorporación de los datos a partir de las exportaciones, primero deberán persistirse las exportaciones realizadas y descriptas en 2.3.1. en la carpeta __/exportaciones__ de la PC. Las exportaciones deberán renombrase en función de los siguientes criterios:
+- Las exportaciones con los datos a incorporar en las tablas cambios_plan, asignaturas y carreras deberán mantener los nombres con los cuales los genera el Menú Externo (__CAMBCARR.TXT__, __matxplan.txt__ y __Carreras.txt__ respectivamente).
+- La exportación con los datos de los estudiantes deberá ser renombrado como __EXP-ESTUDIANTES.TXT__.
+- Las exportaciones con las cursadas de los estudiantes deberán renombrarse como __EXP-CURSADAS-AAAA-C__ donde AAAA es el año de las cursadas, representado mediante cuatro cifras, y C es el cuatrimestre, que puede tener los valores 1 ó 2.
+- Por último, las exportaciones con los exámenes deberán renombrarse como __EXP-FINALES-AAAA__ donde AAAA es el año de las cursadas, representado mediante cuatro cifras.
+
+Es importante tener en cuenta que podrán exportarse varias exportaciones tanto de exámenes como de cursadas al mismo tiempo, simplemente dejando las diferentes exportaciones en la carpeta previamente mencionada. Cuando esto suceda, el programa importador detectará automáticamente que existe mas de una e incorporará los datos al Sistema.
+
+#### 2.3.3. Criterios de actualización de las Tablas de la Base de Datos
+
+
 
