@@ -137,6 +137,19 @@ Una vez que las exportaciones fueron guardadas en la  carpeta __/exportaciones__
 
 #### 2.3.3. Criterios de actualización de las Tablas de la Base de Datos
 
-Los 
+Los programas que actualizan la Base de Datos tienen los siguientes criterios de actualización:
+- "Actualizar Asignaturas", "Actualizar Cambios de Plan", "Actualizar Carreras" y "Actualizar Estudiantes" __borrarán todos los datos presentes en la Tabla y volverán a cargarlos__ cada vez que se ejecuten los procesos.
+- "Actualizar Cursadas" y "Actualizar Finales" __agregarán los nuevos datos junto con los pre-existentes__ en las Tablas Cursadas y Exámenes respectivamente.
 
+Es importante hacer notar que debido al criterio de actualización de las Tablas Cursadas y Exámenes, si quisieran volver a incorporarse datos de cuatrimestre ya presentes en la Base de Datos, deberán borrarse previamente estas instancias desde PgAdmin con sentencias SQL.
+
+Para la Tabla de Finales la sentencia deberá ser como la siguiente:
+
+![Actualización de Finales](./imagenes/C-act-finales.png)
+
+Mientras que para la Tabla de Cursadas, la sentencia deberá ser como la presentada a continuación:
+
+![Actualización de Cursadas](./imagenes/C-act-cursadas.png)
+
+Si todo salió bien, finalizados estos pasos la Base de Datos estará operativa y actualizada a efectos de poder realizar consultas. Buen trabajo!
 
