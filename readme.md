@@ -103,6 +103,10 @@ Para la generación de esta exportación, debe ingresarse al Menú Externo y acc
 
 ##### 2.3.1.4. Exportación Carreras
 
+Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-3-3 Listado de Carreras"_ con los siguientes parámetros de ingreso:
+- Impresora, Pantalla o Archivo (I/P/A): A (Archivo).
+Esta opción genera automáticamente en el Disco D: la exportación __Carreras.txt__.
+
 ##### 2.3.1.5. Exportación Asignaturas
 
 Para la generación de esta exportación, debe ingresarse al Menú Externo y acceder a las opción _"1-3-1 Listado de Materias"_ con los siguientes parámetros de ingreso:
