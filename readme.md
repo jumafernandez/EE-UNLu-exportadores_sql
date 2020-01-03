@@ -155,4 +155,20 @@ Es importante ser __cuidadoso__ con las sentencias SQL anteriores puesto que si 
 
 Por último, se sugiere persistir en la carpeta __/exportaciones/anteriores/__ las exportaciones utilizadas en cada actualización. Esta práctica permite tener los datos exportados en formato de texto plano a efectos de constatar la consistencia de la Base de Datos.
 
-Si todo salió bien, finalizados estos pasos la Base de Datos estará operativa y actualizada a efectos de poder realizar consultas. Buen trabajo!
+## 3. Particularidades para la Base de Datos de Posgrado
+
+A continuación se presenta el esquema de la Base de datos __exportaciones_posgrado__, la cual posee la actividad académica para la Oferta de Posgrado de la UNLu:
+
+![Modelo de Datos Posgrado](./imagenes/EstructuraDatosSQLPosgrado.png)
+
+Básicamente, existen dos diferencias en el modelo de datos respecto de la Base de Datos de Grado:
+1. La clave primaria de los estudiantes no es el atributo __legajo__ sino la combinación de __tipo_documento__, __numero_documento__ y __plan_estudios__ puesto que el legajo no es obligatorio en la implementación de Guaraní 3.
+2. Puesto que en Guaraní 3 pueden definirse diferentes escalas de calificaciones, y por lo tanto niveles de aprobación diferentes, se incluye el atributo __resultado__ en la tabla finales para determinar si el examen está aprobado ('A'), reprobado ('R') o ausente ('U').
+
+En cuanto al proceso de actualización de la Base de Datos, es importante hacer notar que los programas se encuentran en la carpeta __Importadores Posgrado__ y tienen la misma lógica y estructura que los actualizadores para grado.
+
+Las exportaciones se descargan desde el Sistema SIU Guaraní 3, desde la opción __Administración > Exportación de Anuarios Estadísticos__ y se depositan descomprimidos __y sin renombrar__ en la carpeta __exportaciones__ del directorio principal.
+
+Respecto de los criterios de actualización, en este caso se borran todos los datos y se vuelven a cargar cada vez que se disparan los procesos de actualización de cada tabla.
+
+Si todo salió bien, finalizados estos pasos las Base de Datos para Grado y Posgrado estarán operativas y actualizadas a efectos de poder realizar consultas. Buen trabajo!
